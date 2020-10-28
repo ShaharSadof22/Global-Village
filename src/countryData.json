@@ -1,0 +1,31 @@
+[
+    {
+        "name": "",
+        "description": "",
+        "imgUrls": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "facts": {},
+        "mapData": {
+            "lat": "",
+            "lan": "",
+            "zoom": ""
+        },
+        "code": "",
+        "timeZone": "",
+        "costOfLiving": {},
+        "weather": {},
+        "economy": {},
+        "health": {},
+        "education": {},
+        "job": {},
+        "politics": {},
+        "flight": {},
+        "famousFor": {},
+        "review": [],
+        "ourRank": {}
+    }
+]

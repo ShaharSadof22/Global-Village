@@ -1,7 +1,8 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
-import { MainApp } from './pages/MainApp'
+import { GlobalApp } from './pages/GlobalApp'
+import { CountryDetails } from './pages/CountryDetails'
 import { About } from './pages/About.jsx'
 import { NavBar } from './cmps/NavBar.jsx'
 
@@ -12,8 +13,9 @@ function App() {
         <NavBar />
       </header>
       <Switch>
+        <Route component={CountryDetails} path='/country/:id' />
         <Route component={About} path='/about' />
-        <Route component={MainApp} path='/' />
+        <Route component={GlobalApp} path='/' />
       </Switch>
     </div>
   );
