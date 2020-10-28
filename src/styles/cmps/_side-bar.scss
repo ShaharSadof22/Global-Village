@@ -1,0 +1,20 @@
+.side-bar{
+    position: fixed;
+    width: 220px;
+    height: 100vh;
+    padding:20px 10px;
+    border: 1px solid black;
+    ul{
+        list-style: none;
+        padding: 0;
+    li{
+        padding:5px;
+        cursor: pointer;
+        &:hover{
+            background-color: #e8e8e8;
+        }
+    }
+
+    }
+
+}

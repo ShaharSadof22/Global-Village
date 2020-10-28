@@ -3,8 +3,9 @@
 import { Globe } from "../cmps/Globe";
 import { FilterCountry } from "../cmps/FilterCountry";
 import { countryService } from "../services/countryService";
+import React from 'react'
+import { SideBar } from '../cmps/SideBar'
 
-import React, { Component } from "react";
 
 export class GlobalApp extends Component {
   state = {
@@ -23,13 +24,13 @@ export class GlobalApp extends Component {
 
   render() {
     return (
-      <div>
-        <p>GlobalApp</p>
-        <Globe />
-        <FilterCountry />
-      </div>
-    );
-  }
+        <div>
+            <p>GlobalApp</p>
+            <SideBar />
+            <Globe />
+            <FilterCountry />
+        </div>
+    )
 }
 
 // export function GlobalApp() {
