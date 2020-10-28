@@ -1,14 +1,45 @@
-import React from 'react'
+// import React from 'react'
 
-import {Globe} from '../cmps/Globe'
-import {FilterCountry} from '../cmps/FilterCountry'
+import { Globe } from "../cmps/Globe";
+import { FilterCountry } from "../cmps/FilterCountry";
+import { countryService } from "../services/countryService";
 
-export function GlobalApp() {
+import React, { Component } from "react";
+
+export class GlobalApp extends Component {
+  state = {
+    countries: [],
+  };
+
+  componentDidMount() {
+    this.loadCountries();
+  }
+
+  loadCountries = async () => {
+    const countries = await countryService.query();
+    console.log(countries)
+    this.setState({ countries: countries });
+  };
+
+  render() {
     return (
-        <div>
-            <p>GlobalApp</p>
-            <Globe />
-            <FilterCountry />
-        </div>
-    )
+      <div>
+        <p>GlobalApp</p>
+        <Globe />
+        <FilterCountry />
+      </div>
+    );
+  }
 }
+
+// export function GlobalApp() {
+
+//     return (
+
+//         <div>
+//             <p>GlobalApp</p>
+//             <Globe />
+//             <FilterCountry />
+//         </div>
+//     )
+// }
