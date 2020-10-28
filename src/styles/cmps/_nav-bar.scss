@@ -1,0 +1,19 @@
+.nav-bar{
+    width: 100vw;
+    height: 70px;
+    justify-content: flex-end;
+    width: 100vw;
+    background: #03a9f473;
+    padding-right: 16px;
+
+    .nav-item{
+        padding: 24px;
+        position: relative;
+        text-decoration: none;
+        
+        &:hover{
+            background-color: rgba(0, 0, 0, 0.151);
+        }
+    }
+
+}
