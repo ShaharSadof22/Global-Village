@@ -1,9 +1,9 @@
-// import React from 'react'
+
 
 import { Globe } from "../cmps/Globe";
 import { FilterCountry } from "../cmps/FilterCountry";
 import { countryService } from "../services/countryService";
-import React from 'react'
+import React,{Component} from 'react'
 import { SideBar } from '../cmps/SideBar'
 
 
@@ -32,7 +32,7 @@ export class GlobalApp extends Component {
         </div>
     )
 }
-
+}
 // export function GlobalApp() {
 
 //     return (
