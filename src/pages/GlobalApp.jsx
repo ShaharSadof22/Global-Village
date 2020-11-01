@@ -25,7 +25,7 @@ export class GlobalApp extends Component {
   render() {
     return (
         <div>
-            <p>GlobalApp</p>
+            <p>GlobalApp!!</p>
             <SideBar />
             <Globe />
             <FilterCountry />
