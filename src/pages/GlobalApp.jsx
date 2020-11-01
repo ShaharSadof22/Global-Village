@@ -3,7 +3,7 @@
 import { Globe } from "../cmps/Globe";
 import { FilterCountry } from "../cmps/FilterCountry";
 import { countryService } from "../services/countryService";
-import React,{Component} from 'react'
+import React, { Component } from 'react'
 import { SideBar } from '../cmps/SideBar'
 
 
@@ -24,13 +24,13 @@ export class GlobalApp extends Component {
 
   render() {
     return (
-        <div>
-            {/* <SideBar /> */}
-            <Globe />
-            {/* <FilterCountry /> */}
-        </div>
+      <div>
+        {/* <SideBar /> */}
+        <Globe />
+        {/* <FilterCountry /> */}
+      </div>
     )
-}
+  }
 }
 // export function GlobalApp() {
 

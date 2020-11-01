@@ -8,9 +8,9 @@ function query(entityType) {
   return Promise.resolve(entities);
 }
 
-function get(entityType, entityId) {
+function get(entityType, entityCode) {
   return query(entityType).then((entities) =>
-    entities.find((entity) => entity._id === entityId)
+    entities.find((entity) => entity.code === entityCode)
   );
 }
 // function post(entityType, newEntity) {

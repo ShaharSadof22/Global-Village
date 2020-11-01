@@ -1,4 +1,5 @@
 import React, { useLayoutEffect } from 'react';
+import { useHistory } from 'react-router-dom';
 
 import * as am4core from "@amcharts/amcharts4/core";
 import * as am4maps from "@amcharts/amcharts4/maps";
@@ -9,6 +10,8 @@ import am4themes_animated from "@amcharts/amcharts4/themes/animated";
 am4core.useTheme(am4themes_animated);
 
 export function Globe() {
+    const history = useHistory();
+    
     useLayoutEffect(() => {
 
         // Themes begin
@@ -69,14 +72,15 @@ export function Globe() {
         })
 
         // onClick event
-        polygonTemplate.events.on("hit", function (ev) {
-            const name = ev.target.dataItem.dataContext.name
-            // zoom to an object
-            // ev.target.series.chart.zoomToMapObject(ev.target);
+        polygonTemplate.events.on("hit", ev => onCountryClick(ev));
 
-            console.log('name', name);
-        });
     }, []);
+
+    function onCountryClick(ev) {
+        const code = ev.target.dataItem.dataContext.id
+        console.log('code', code);
+        history.push(`/country/${code}`)
+    }
 
     return (
         <div id="chartdiv" ></div>

@@ -13,7 +13,7 @@ function App() {
         <NavBar />
       </header>
       <Switch>
-        <Route component={CountryDetails} path='/country/:id' />
+        <Route component={CountryDetails} path='/country/:code' />
         <Route component={About} path='/about' />
         <Route component={GlobalApp} path='/' />
       </Switch>
