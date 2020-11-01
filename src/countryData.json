@@ -1,33 +1,33 @@
 [
-    {
-        "_id":"FR",
-        "name": "France",
-        "description": "During the Iron Age, what is now metropolitan France was inhabited by the Gauls, a collection of Celtic tribes. The area was annexed by Rome in 51 BC, developing a distinct Gallo-Roman culture that laid the foundation of the French language. The Germanic Franks arrived in 476 and formed the Kingdom of Francia, which became the heartland of the Carolingian Empire. The Treaty of Verdun of 843 partitioned the empire, with West Francia becoming the Kingdom of France in 987",
-        "flagImg":"",
-        "imgUrls": [
-            "https://res.cloudinary.com/dsfnyykw9/image/upload/v1603895382/chris-karidis-nnzkZNYWHaU-unsplash_qvofry.jpg",
-            "https://res.cloudinary.com/dsfnyykw9/image/upload/v1603895382/chris-karidis-PIOqHJG5a1U-unsplash_jqgjym.jpg",
-            "https://res.cloudinary.com/dsfnyykw9/image/upload/v1603895382/paul-gaudriault-xzoD4P7Lu7M-unsplash_fiiawy.jpg",
-            "https://res.cloudinary.com/dsfnyykw9/image/upload/v1603895383/dorian-mongel-Yui3DZiX7yM-unsplash_nqdyxl.jpg"
-        ],
-        "facts": {},
-        "mapData": {
-            "lat": "",
-            "lan": "",
-            "zoom": ""
-        },
-        "code": "FR",
-        "timeZone": "",
-        "costOfLiving": "100",
-        "weather": {},
-        "economy": "nice economy",
-        "health": "good health",
-        "education": "bad education",
-        "job": "no job!!!",
-        "politics": "Emmanuel Macron",
-        "flight": {},
-        "famousFor": {},
-        "review": [],
-        "ourRank": {}
-    }
+  {
+    "_id": "FR",
+    "name": "France",
+    "description": "During the Iron Age, what is now metropolitan France was inhabited by the Gauls, a collection of Celtic tribes. The area was annexed by Rome in 51 BC, developing a distinct Gallo-Roman culture that laid the foundation of the French language. The Germanic Franks arrived in 476 and formed the Kingdom of Francia, which became the heartland of the Carolingian Empire. The Treaty of Verdun of 843 partitioned the empire, with West Francia becoming the Kingdom of France in 987",
+    "flagImg": "",
+    "imgUrls": [
+      "https://res.cloudinary.com/dsfnyykw9/image/upload/v1603895382/chris-karidis-nnzkZNYWHaU-unsplash_qvofry.jpg",
+      "https://res.cloudinary.com/dsfnyykw9/image/upload/v1603895382/chris-karidis-PIOqHJG5a1U-unsplash_jqgjym.jpg",
+      "https://res.cloudinary.com/dsfnyykw9/image/upload/v1603895382/paul-gaudriault-xzoD4P7Lu7M-unsplash_fiiawy.jpg",
+      "https://res.cloudinary.com/dsfnyykw9/image/upload/v1603895383/dorian-mongel-Yui3DZiX7yM-unsplash_nqdyxl.jpg"
+    ],
+    "facts": {},
+    
+      "lat": "46.240899999999996",
+      "lng": "2.415000000000001",
+
+    
+    "code": "FR",
+    "timeZone": "",
+    "costOfLiving": "100",
+    "weather": {},
+    "economy": "nice economy",
+    "health": "good health",
+    "education": "bad education",
+    "job": "no job!!!",
+    "politics": "Emmanuel Macron",
+    "flight": {},
+    "famousFor": {},
+    "review": [],
+    "ourRank": {}
+  }
 ]

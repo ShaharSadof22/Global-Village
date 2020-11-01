@@ -22,12 +22,13 @@ export function CountryDetails() {
     }
 
     return (
+        
         <div>
             <p>{country.code}</p>
             <p>CountryDetails</p>
-            <SideBar />
-          <GoogleMap/>
-            {/* <SideBar /> */}
+            <SideBar/>
+          {country.lat && <GoogleMap lat={country.lat} lng={country.lng}/>}
+           
         </div>
     )
 }

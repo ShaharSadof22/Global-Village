@@ -6,7 +6,7 @@ export function _NavBar() {
 
     return (
         <nav className="nav-bar flex">
-            <NavLink className="nav-item" to="/country/:id">ABOUT</NavLink>
+            <NavLink className="nav-item" to="/about">ABOUT</NavLink>
             <NavLink className="nav-item" to="/">HOME</NavLink>
         </nav>
     )

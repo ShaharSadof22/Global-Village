@@ -2,8 +2,12 @@ import React from "react";
 import { GoogleApiWrapper, InfoWindow, Marker, Map } from 'google-maps-react';
 class _GoogleMap extends React.Component {
   state = {
-    lat: 32.11387923078556,
-    lng: 34.82767207691768,
+    lat: 32.0657353594228,
+    lng:34.87023370314972
+  }
+  componentDidMount=()=>{
+      console.log(this.props)
+      this.setState({lat:+this.props.lat,lng:+this.props.lng}) 
   }
 
   render() {

@@ -6,10 +6,10 @@ export const countryService = {
   loadCountry,
 };
 
-// const countries = require ('../countryData.json')
+const countries = require ('../countryData.json')
 
 function query() {
-  // localStorage.setItem('country', JSON.stringify(countries))
+  localStorage.setItem('country', JSON.stringify(countries))
   return storageService.query("country");
   // return httpService.get(`country`);
 }
