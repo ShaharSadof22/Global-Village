@@ -78,6 +78,7 @@ export function Globe() {
 
     function onCountryClick(ev) {
         const code = ev.target.dataItem.dataContext.id
+        console.log("onCountryClick -> ev.target.dataItem", ev.target.dataItem.dataContext)
         console.log('code', code);
         history.push(`/country/${code}`)
     }

@@ -19,8 +19,6 @@ export function CountryDetails() {
         setCountry(country)
     }
 
-
-
     return (
         <div>
             <p>{country.code}</p>
